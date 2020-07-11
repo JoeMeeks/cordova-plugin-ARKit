@@ -11,9 +11,11 @@ This fork upgrades the cordova-plugin-add-swift-support version to 2.0.2 for XCo
 
 ## Installation
 
+Cordova:
     `cordova plugin add cordova-plugin-arkit`
 	
-	Ionic:
+
+Ionic:
 	`ionic cordova plugin add cordova-plugin-arkit`
 
 Add the following lines into your config.xml in the platform tag.
