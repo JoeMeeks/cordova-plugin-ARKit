@@ -1,8 +1,7 @@
 # cordova-plugin-ARKit
 
-This fork upgrades the cordova-plugin-add-swift-support version to 2.0.2 and sets the iOS target version to 11.3 (minimum ARKit version) for XCode 11.5 compatibility:
+This fork upgrades the cordova-plugin-add-swift-support version to 2.0.2 for XCode 11.5 compatibility:
 ```xml
-<preference name="deployment-target" value="11.3" />
 <dependency id="cordova-plugin-add-swift-support" version="~2.0.2" />
 ```
 
@@ -12,16 +11,18 @@ This fork upgrades the cordova-plugin-add-swift-support version to 2.0.2 and set
 
 ## Installation
 
-    cordova plugin add https://github.com/JoeMeeks/cordova-plugin-ARKit
+    `cordova plugin add cordova-plugin-arkit`
+	
+	Ionic:
+	`ionic cordova plugin add cordova-plugin-arkit`
 
 Add the following lines into your config.xml in the platform tag.
 ```xml
 <platform name="ios">
+  <preference name="deployment-target" value="11.3" />
   <preference name="UseSwiftLanguageVersion" value="4.2" />
 </platform>
 ```
-
-For Ionic AppFlow compatibility set the following iOS preference
 
 ## Methods
 
