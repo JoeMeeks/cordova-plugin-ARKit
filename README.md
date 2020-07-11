@@ -1,6 +1,6 @@
 # cordova-plugin-ARKit
 
-This fork upgrades the cordova-plugin-add-swift-support version to 2.0.2 and sets the iOS target version for XCode 11.5 compatibility:
+This fork upgrades the cordova-plugin-add-swift-support version to 2.0.2 and sets the iOS target version to 11.3 (minimum ARKit version) for XCode 11.5 compatibility:
 ```xml
 <preference name="deployment-target" value="11.3" />
 <dependency id="cordova-plugin-add-swift-support" version="~2.0.2" />
